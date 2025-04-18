@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: phishing-demo
+    env: python
+    buildCommand: ""
+    startCommand: "gunicorn app:app"
